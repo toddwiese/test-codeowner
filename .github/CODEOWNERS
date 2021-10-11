@@ -31,6 +31,10 @@
 # `docs/build-app/troubleshooting.md`.
 docs/*  docs@example.com
 
+# In this example, @octocat owns any file in an apps directory
+# anywhere in your repository.
+apps/ @octocat
+
 # In this example, @doctocat owns any files in the build/logs
 # directory at the root of the repository and any of its
 # subdirectories.
