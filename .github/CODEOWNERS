@@ -24,18 +24,17 @@
 # the octocats team in the octo-org organization owns all .txt files.
 # *.txt @octo-org/octocats
 
-# In this example, @doctocat owns any files in the build/logs
-# directory at the root of the repository and any of its
-# subdirectories.
-# /build/logs/ @doctocat
+
 
 # The `docs/*` pattern will match files like
 # `docs/getting-started.md` but not further nested files like
 # `docs/build-app/troubleshooting.md`.
 docs/*  docs@example.com
 
-# In this example, @octocat owns any file in an apps directory
-# anywhere in your repository.
+# In this example, @doctocat owns any files in the build/logs
+# directory at the root of the repository and any of its
+# subdirectories.
+# /build/logs/ @doctocat
 /folder/enterprise_domains/ @CJ-Reindl
 
 
